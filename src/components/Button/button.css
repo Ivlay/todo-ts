@@ -1,0 +1,28 @@
+button {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  height: 3.2rem;
+  width: 3.2rem;
+  overflow: hidden;
+}
+
+.material-icons {
+  position: absolute;
+  color: rgba(0, 0, 0, .57);
+}
+
+.done {
+  right: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.delete {
+  right: 0.53rem;
+  top: 50%;
+  transform: translateY(-50%);
+}

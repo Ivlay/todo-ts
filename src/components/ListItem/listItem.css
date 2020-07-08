@@ -1,0 +1,31 @@
+li {
+  cursor: default;
+  position: relative;
+  user-select: none;
+  transition: background-color 0.2s linear;
+}
+
+.view {
+  height: 3.2rem;
+  line-height: 3.2rem;
+  padding: 0 1rem 0 4.8rem;
+}
+
+.edit .view {
+  display: none;
+}
+
+.edit input {
+  font-size: 15px;
+  font-family: 'Noto Sans', sans-serif !important;
+  line-height: 6.2rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+li button {
+  display: none !important;
+}
+
+li:hover button {
+  display: block !important;
+}

@@ -1,0 +1,23 @@
+form {
+  position: relative;
+  border-bottom: 1px solid #dadce0;
+
+  .add {
+    left: 0.53rem;
+  }
+}
+
+input {
+  height: 3.2rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 4.8rem;
+  background-color: #fff;
+  
+  &::placeholder {
+    color: #9a9ea3;
+    font-weight: 700;
+  }
+}
